@@ -4,6 +4,7 @@ db_name = "bank.db"
 
 def get_connection():
     conn = sqlite3.connect(db_name)
+    conn.row_factory = sqlite3.Row
     return conn
 
 def db():
@@ -22,13 +23,14 @@ def db():
             )
     ''')
 
-
+    cursor.execute('''
+            CREATE TABLE IF NOT EXISTS credential(
+                login_id INTEGER PRIMARY KEY AUTOINCREMENT,
+                password TEXT NOT NULL,
+                user_email TEXT NOT NULL,
+                FOREIGN KEY(user_email) REFERENCES account(email)
+            )
+    ''')
+    
     conn.commit()
-# cursor.execute('''
-#         CREATE TABLE IF NOT EXISTS credentials(
-            
-#         )
-
-# ''')
-
     conn.close()

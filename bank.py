@@ -1,5 +1,5 @@
 class Account:
-    def __init__(self,name,dob,gender,email,phone_no):
+    def __init__(self,name,gender,dob,email,phone_no):
         self.name = name
         self.dob = dob
         self.gender = gender

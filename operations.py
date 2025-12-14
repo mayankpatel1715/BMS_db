@@ -1,5 +1,7 @@
 from bank import Account
 import data as d
+import display as dis
+
 
 def account_creation():
     name = input("Enter your Full name : ")
@@ -7,6 +9,8 @@ def account_creation():
     gender = input("Enter your Gender [Male/Female] : ")
     email = input("Enter your email address : ")
     phone_no = input("Enter your Phone Number : ")
+    
+    password = input("Choose and enter a password : ")
     
     info = Account(name,gender,dob,email,phone_no)
     user_data = info.bank_app()
@@ -20,5 +24,31 @@ def account_creation():
     '''
     
     cursor.execute(query,user_data)
+    cursor.execute("INSERT INTO credential (password, user_email) VALUES(?,?)",(password,email))
     conn.commit()
+    conn.close()
     
+def account_detail(user_email):
+    conn = d.get_connection()
+    cursor = conn.cursor()
+    
+    query = '''
+        SELECT * 
+        FROM account
+        WHERE email = :email
+    '''
+    
+    cursor.execute(query,{"email" : user_email})
+    reuslt = cursor.fetchone()
+    
+    conn.close()
+    
+    if reuslt:
+        user_dict = dict(reuslt)
+        dis.account_display(user_dict)
+        return user_dict
+    else:
+        print("No Account found")
+        return
+
+        
