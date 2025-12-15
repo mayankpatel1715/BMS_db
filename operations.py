@@ -49,4 +49,66 @@ def account_detail(user_email):
     else:
         return
 
-        
+def money_deposit(email):
+    conn = d.get_connection()
+    cursor = conn.cursor()
+    
+    deposit = int(input("Enter How much money you want to deposit : ₹"))
+    
+    query = '''
+        UPDATE account
+        SET Balance = Balance + :deposit
+        WHERE email = :email
+    '''
+    
+    data={
+        "deposit" : deposit,
+        "email" : email
+    }
+    
+    cursor.execute(query,data)
+    conn.commit()
+    conn.close()
+    
+def money_withdraw(email):
+    conn = d.get_connection()
+    cursor = conn.cursor()
+    
+    withdraw_money = int(input("Enter how much money you want to withdraw : ₹"))
+    
+    query = '''
+        UPDATE account
+        SET Balance = Balance - :withdraw_money
+        WHERE email = :email
+    '''
+    
+    data ={
+        "withdraw_money" : withdraw_money,
+        "email" : email
+    }
+    
+    cursor.execute(query,data)
+    conn.commit()
+    conn.close()
+    
+    
+def delete_account(email):
+    conn = d.get_connection()
+    cursor = conn.cursor()
+    
+    query = '''
+        DELETE FROM account
+        WHERE email  = :email
+    '''
+    query1 = '''
+        DELETE FROM credential
+        WHERE user_email = :email
+    '''
+    
+    data = {"email" : email}
+    
+    cursor.execute(query1,data)
+    cursor.execute(query,data)
+    # cursor.execute(query1,data)
+    conn.commit()
+    conn.close()

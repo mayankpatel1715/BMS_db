@@ -43,11 +43,11 @@ def main():
                             else:
                                 print("No Account found")
                         case '2':
-                            pass
+                            ops.money_deposit(user_email)
                         case '3':
-                            pass
+                            ops.money_withdraw(user_email)
                         case '4':
-                            pass
+                            ops.delete_account(user_email)
                         case '5':
                             print("Exiting ...")
                             break
