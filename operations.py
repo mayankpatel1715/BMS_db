@@ -112,7 +112,7 @@ def money_withdraw(email):
         result = cursor.fetchone()
         curr_bal = int(result['Balance'])
 
-        if curr_bal > withdraw_money:
+        if curr_bal >= withdraw_money:
 
             query = '''
                 UPDATE account
@@ -128,8 +128,8 @@ def money_withdraw(email):
             cursor.execute(query,data)
             conn.commit()
         else:
-            logging.warning("User is trying to withdraw negative balance.")
-            print("User can't withdraw negative balance.")
+            logging.warning(f"Insufficient Funds. Balance: {curr_bal}, Req: {withdraw_money}")
+            print("Transaction Failed: Insufficient Funds.")
             raise Exception("User cannot withdraw negative balance.")
         
     except Exception as e:
