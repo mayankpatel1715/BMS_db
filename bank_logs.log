@@ -1,0 +1,246 @@
+2025-12-15 20:03:28,957 | INFO | main | main | Started Bank Application
+2025-12-15 20:03:28,957 | INFO | main | main | Loading Database
+2025-12-15 20:03:36,632 | INFO | main | main | Started Bank Application
+2025-12-15 20:03:36,632 | INFO | main | main | Loading Database
+2025-12-15 20:04:58,560 | INFO | main | main | Starting login attempt
+2025-12-15 20:06:23,373 | INFO | login | login_validation | Entered login Validation
+2025-12-15 20:06:41,463 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 20:06:41,464 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 20:07:31,215 | INFO | main | main | Starting login attempt
+2025-12-15 20:07:40,322 | INFO | login | login_validation | Entered login Validation
+2025-12-15 20:07:46,342 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 20:07:46,343 | ERROR | login | login_validation | Account Not Found
+2025-12-15 20:08:24,803 | INFO | main | main | Starting login attempt
+2025-12-15 20:08:41,545 | INFO | login | login_validation | Entered login Validation
+2025-12-15 20:08:59,810 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 20:08:59,810 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 20:09:05,455 | INFO | main | main | User Entering Account Details
+2025-12-15 20:09:05,455 | INFO | operations | account_detail |  ==== Entered Account Details ==== 
+2025-12-15 20:09:47,231 | INFO | main | main | User Depositing Money
+2025-12-15 20:09:47,231 | INFO | operations | money_deposit |  ==== Entered Deposit Money ==== 
+2025-12-15 20:09:47,232 | INFO | valid | check_money |  ==== Entered Money Validation
+2025-12-15 20:10:44,873 | WARNING | valid | check_money | User entered negative value.
+2025-12-15 20:11:02,588 | WARNING | valid | check_money | User didnot entered digits
+2025-12-15 20:11:46,219 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 20:11:46,220 | INFO | operations | money_deposit | Quering to database
+2025-12-15 20:11:46,221 | WARNING | operations | money_deposit | 
+2025-12-15 20:11:46,222 | INFO | operations | money_deposit | Connection with database is closed
+2025-12-15 20:22:20,702 | INFO | main | main | Starting login attempt
+2025-12-15 20:22:37,652 | INFO | login | login_validation | Entered login Validation
+2025-12-15 20:22:40,767 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 20:22:40,768 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 20:22:43,395 | INFO | main | main | User Depositing Money
+2025-12-15 20:22:43,396 | INFO | operations | money_deposit |  ==== Entered Deposit Money ==== 
+2025-12-15 20:22:43,397 | INFO | valid | check_money |  ==== Entered Money Validation
+2025-12-15 20:22:45,431 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 20:22:45,431 | INFO | operations | money_deposit | Quering to database
+2025-12-15 20:22:45,434 | WARNING | operations | money_deposit | 
+2025-12-15 20:22:45,434 | INFO | operations | money_deposit | Connection with database is closed
+2025-12-15 20:25:40,635 | INFO | main | main | Started Bank Application
+2025-12-15 20:25:40,635 | INFO | main | main | Loading Database
+2025-12-15 20:25:41,681 | INFO | main | main | Starting login attempt
+2025-12-15 20:25:53,087 | INFO | login | login_validation | Entered login Validation
+2025-12-15 20:25:57,190 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 20:25:57,191 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 20:25:57,191 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 20:25:58,367 | INFO | main | main | User Depositing Money
+2025-12-15 20:25:58,368 | INFO | operations | money_deposit |  ==== Entered Deposit Money ==== 
+2025-12-15 20:25:58,369 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 20:26:00,315 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 20:26:00,315 | INFO | operations | money_deposit | Quering to database
+2025-12-15 20:26:00,317 | INFO | operations | money_deposit | Operation Performed
+2025-12-15 20:26:00,318 | INFO | operations | money_deposit | Connection with database is closed
+2025-12-15 20:39:51,513 | INFO | main | main | Started Bank Application
+2025-12-15 20:39:51,513 | INFO | main | main | Loading Database
+2025-12-15 20:39:52,675 | INFO | main | main | Starting login attempt
+2025-12-15 20:40:01,338 | INFO | login | login_validation | Entered login Validation
+2025-12-15 20:40:05,489 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 20:40:05,490 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 20:40:05,491 | INFO | login | login_validation | USer : reyanshpatel@gmail.com logged in sccussfully
+2025-12-15 20:40:05,491 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 20:40:07,895 | INFO | main | main | User Entering Account Details
+2025-12-15 20:40:07,895 | INFO | operations | account_detail |  ==== Entered Account Details ==== 
+2025-12-15 20:40:07,896 | INFO | operations | account_detail | Connection with database is closed
+2025-12-15 20:40:07,896 | INFO | operations | account_detail | Account fetched Sccussfully
+2025-12-15 20:40:39,643 | INFO | main | main | User Depositing Money
+2025-12-15 20:40:39,644 | INFO | operations | money_deposit |  ==== Entered Deposit Money ==== 
+2025-12-15 20:40:39,645 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 20:40:48,335 | WARNING | valid | check_money | User entered negative value.
+2025-12-15 20:40:52,136 | WARNING | valid | check_money | User didnot entered digits
+2025-12-15 20:40:58,250 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 20:40:58,250 | INFO | operations | money_deposit | Quering to database
+2025-12-15 20:40:58,253 | INFO | operations | money_deposit | Operation Performed
+2025-12-15 20:40:58,254 | INFO | operations | money_deposit | Connection with database is closed
+2025-12-15 20:40:58,254 | INFO | operations | money_deposit | User Desposited : ₹100000
+2025-12-15 20:41:07,844 | INFO | main | main | User withdrawing Money
+2025-12-15 20:41:07,845 | INFO | operations | money_withdraw |  ==== Entered Withdraw Money ==== 
+2025-12-15 20:41:07,845 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 20:41:11,088 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 20:41:11,089 | INFO | operations | money_withdraw | Quering to database
+2025-12-15 20:41:11,091 | INFO | operations | money_withdraw | Connection with database is closed
+2025-12-15 20:41:11,092 | INFO | operations | money_withdraw | User Withdrawn : ₹50000
+2025-12-15 20:41:17,692 | INFO | main | main | User withdrawing Money
+2025-12-15 20:41:17,692 | INFO | operations | money_withdraw |  ==== Entered Withdraw Money ==== 
+2025-12-15 20:41:17,693 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 20:41:19,612 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 20:41:19,613 | INFO | operations | money_withdraw | Quering to database
+2025-12-15 20:41:19,615 | INFO | operations | money_withdraw | Connection with database is closed
+2025-12-15 20:41:19,616 | INFO | operations | money_withdraw | User Withdrawn : ₹123123123
+2025-12-15 20:41:48,258 | INFO | main | main | User deleting Account
+2025-12-15 20:41:48,258 | INFO | operations | delete_account |  ==== Entered Account Deletion Mode ==== 
+2025-12-15 20:41:48,260 | INFO | operations | delete_account | Quering to database
+2025-12-15 20:41:48,262 | INFO | operations | delete_account | Connection with database is closed
+2025-12-15 20:41:48,262 | INFO | operations | delete_account | User Account : reyanshpatel@gmail.com deleted sccussfully
+2025-12-15 20:55:19,005 | INFO | main | main | Started Bank Application
+2025-12-15 20:55:19,005 | INFO | main | main | Loading Database
+2025-12-15 20:55:30,142 | INFO | main | main | Starting login attempt
+2025-12-15 20:55:37,621 | INFO | login | login_validation | Entered login Validation
+2025-12-15 20:55:41,851 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 20:55:41,852 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 20:55:41,852 | INFO | login | login_validation | USer : sunitapatel4281@gmail.com logged in sccussfully
+2025-12-15 20:55:41,852 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 20:55:51,118 | INFO | main | main | User Entering Account Details
+2025-12-15 20:55:51,119 | INFO | operations | account_detail |  ==== Entered Account Details ==== 
+2025-12-15 20:55:51,120 | INFO | operations | account_detail | Connection with database is closed
+2025-12-15 20:55:51,121 | INFO | operations | account_detail | Account fetched Sccussfully
+2025-12-15 20:55:55,476 | INFO | main | main | User withdrawing Money
+2025-12-15 20:55:55,476 | INFO | operations | money_withdraw |  ==== Entered Withdraw Money ==== 
+2025-12-15 20:55:55,477 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 20:55:57,514 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 20:55:57,514 | INFO | operations | money_withdraw | Quering to database
+2025-12-15 20:55:57,514 | WARNING | operations | money_withdraw | Something went wrong with database.
+2025-12-15 20:55:57,515 | INFO | operations | money_withdraw | Connection with database is closed
+2025-12-15 20:55:57,515 | INFO | operations | money_withdraw | User Withdrawn : ₹12345678
+2025-12-15 21:09:16,082 | INFO | main | main | Started Bank Application
+2025-12-15 21:09:16,082 | INFO | main | main | Loading Database
+2025-12-15 21:09:17,069 | INFO | main | main | Starting login attempt
+2025-12-15 21:09:27,160 | INFO | login | login_validation | Entered login Validation
+2025-12-15 21:09:31,096 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 21:09:31,097 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 21:09:31,097 | INFO | login | login_validation | USer : sunitapatel4281@gmail.com logged in sccussfully
+2025-12-15 21:09:31,097 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 21:09:33,452 | INFO | main | main | User withdrawing Money
+2025-12-15 21:09:33,453 | INFO | operations | money_withdraw |  ==== Entered Withdraw Money ==== 
+2025-12-15 21:09:33,453 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 21:09:38,131 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 21:09:38,131 | INFO | operations | money_withdraw | Quering to database
+2025-12-15 21:09:38,132 | WARNING | operations | money_withdraw | Something went wrong with database.
+2025-12-15 21:09:38,132 | INFO | operations | money_withdraw | Connection with database is closed
+2025-12-15 21:09:38,132 | INFO | operations | money_withdraw | User Withdrawn : ₹1000
+2025-12-15 21:28:02,308 | INFO | main | main | Started Bank Application
+2025-12-15 21:28:02,308 | INFO | main | main | Loading Database
+2025-12-15 21:28:04,650 | INFO | main | main | Starting login attempt
+2025-12-15 21:28:12,129 | INFO | login | login_validation | Entered login Validation
+2025-12-15 21:28:17,355 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 21:28:17,357 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 21:28:17,357 | INFO | login | login_validation | USer : sunitapatel4281@gmail.com logged in sccussfully
+2025-12-15 21:28:17,357 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 21:28:19,126 | INFO | main | main | User withdrawing Money
+2025-12-15 21:28:19,126 | INFO | operations | money_withdraw |  ==== Entered Withdraw Money ==== 
+2025-12-15 21:29:10,234 | INFO | main | main | Starting login attempt
+2025-12-15 21:29:17,826 | INFO | login | login_validation | Entered login Validation
+2025-12-15 21:29:21,189 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 21:29:21,190 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 21:29:21,190 | INFO | login | login_validation | USer : sunitapatel4281@gmail.com logged in sccussfully
+2025-12-15 21:29:21,191 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 21:29:22,630 | INFO | main | main | User Depositing Money
+2025-12-15 21:29:22,631 | INFO | operations | money_deposit |  ==== Entered Deposit Money ==== 
+2025-12-15 21:29:22,632 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 21:29:24,514 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 21:29:24,514 | INFO | operations | money_deposit | Quering to database
+2025-12-15 21:29:24,515 | INFO | operations | money_deposit | Operation Performed
+2025-12-15 21:29:24,517 | INFO | operations | money_deposit | Connection with database is closed
+2025-12-15 21:29:24,517 | INFO | operations | money_deposit | User Desposited : ₹10000
+2025-12-15 21:29:25,805 | INFO | main | main | User Entering Account Details
+2025-12-15 21:29:25,805 | INFO | operations | account_detail |  ==== Entered Account Details ==== 
+2025-12-15 21:29:25,807 | INFO | operations | account_detail | Connection with database is closed
+2025-12-15 21:29:25,807 | INFO | operations | account_detail | Account fetched Sccussfully
+2025-12-15 21:31:00,734 | INFO | main | main | Started Bank Application
+2025-12-15 21:31:00,734 | INFO | main | main | Loading Database
+2025-12-15 21:31:02,207 | INFO | main | main | Starting login attempt
+2025-12-15 21:31:09,735 | INFO | login | login_validation | Entered login Validation
+2025-12-15 21:31:12,644 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 21:31:12,644 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 21:31:12,645 | INFO | login | login_validation | USer : sunitapatel4281@gmail.com logged in sccussfully
+2025-12-15 21:31:12,645 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 21:31:13,793 | INFO | main | main | User withdrawing Money
+2025-12-15 21:31:13,794 | INFO | operations | money_withdraw |  ==== Entered Withdraw Money ==== 
+2025-12-15 21:31:13,795 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 21:31:17,655 | WARNING | valid | check_money | User entered negative value.
+2025-12-15 21:31:22,478 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 21:31:22,478 | INFO | operations | money_withdraw | Quering to database
+2025-12-15 21:31:22,479 | WARNING | operations | money_withdraw | Something went wrong with database.
+2025-12-15 21:31:22,479 | INFO | operations | money_withdraw | Connection with database is closed
+2025-12-15 21:31:22,479 | INFO | operations | money_withdraw | User Withdrawn : ₹123456475
+2025-12-15 21:32:38,591 | INFO | main | main | Started Bank Application
+2025-12-15 21:32:38,591 | INFO | main | main | Loading Database
+2025-12-15 21:32:39,582 | INFO | main | main | Starting login attempt
+2025-12-15 21:32:52,662 | INFO | login | login_validation | Entered login Validation
+2025-12-15 21:32:58,301 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 21:32:58,302 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 21:32:58,302 | INFO | login | login_validation | USer : sunitapatel4281@gmail.com logged in sccussfully
+2025-12-15 21:32:58,302 | ERROR | main | main | User Typed incorrect Password. Login Attempt failed.
+2025-12-15 21:33:00,802 | INFO | main | main | Starting login attempt
+2025-12-15 21:33:25,533 | INFO | login | login_validation | Entered login Validation
+2025-12-15 21:33:30,050 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 21:33:30,052 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 21:33:30,052 | INFO | login | login_validation | USer : sunitapatel4281@gmail.com logged in sccussfully
+2025-12-15 21:33:30,052 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 21:33:32,714 | INFO | main | main | User withdrawing Money
+2025-12-15 21:33:32,715 | INFO | operations | money_withdraw |  ==== Entered Withdraw Money ==== 
+2025-12-15 21:33:32,716 | INFO | valid | check_money |  ==== Entered Money Validation ==== 
+2025-12-15 21:33:38,657 | INFO | valid | check_money | Money Validation confirmed
+2025-12-15 21:33:38,658 | INFO | operations | money_withdraw | Quering to database
+2025-12-15 21:33:38,658 | WARNING | operations | money_withdraw | USer is trying to withdraw negative balance.
+2025-12-15 21:33:38,659 | WARNING | operations | money_withdraw | Something went wrong with database.
+2025-12-15 21:33:38,659 | INFO | operations | money_withdraw | Connection with database is closed
+2025-12-15 21:33:38,659 | INFO | operations | money_withdraw | User Withdrawn : ₹9999999
+2025-12-15 22:05:21,732 | INFO | main | main | Started Bank Application
+2025-12-15 22:05:21,732 | INFO | main | main | Loading Database
+2025-12-15 22:05:29,242 | INFO | valid | date_of_birth |  ==== Entered Date of Birth Verification ==== 
+2025-12-15 22:05:56,583 | INFO | main | main | Started Bank Application
+2025-12-15 22:05:56,583 | INFO | main | main | Loading Database
+2025-12-15 22:06:02,432 | INFO | valid | date_of_birth |  ==== Entered Date of Birth Verification ==== 
+2025-12-15 22:08:34,021 | INFO | main | main | Started Bank Application
+2025-12-15 22:08:34,021 | INFO | main | main | Loading Database
+2025-12-15 22:08:38,855 | INFO | valid | date_of_birth |  ==== Entered Date of Birth Verification ==== 
+2025-12-15 22:08:40,763 | WARNING | valid | date_of_birth | Invalid Date format.
+2025-12-15 22:08:46,487 | INFO | valid | date_of_birth | Date of Birth Verified Successfully.
+2025-12-15 22:08:46,487 | INFO | valid | gender_verification |  ==== Entered Gender Verification ==== 
+2025-12-15 22:08:48,883 | INFO | valid | gender_verification | Invalid Gender
+2025-12-15 22:08:50,840 | INFO | valid | gender_verification | Gender Verified.
+2025-12-15 22:08:50,840 | INFO | valid | email_id |  ==== Entered Email Id verification ==== 
+2025-12-15 22:08:52,928 | WARNING | valid | email_id | Invalid email address
+2025-12-15 22:09:00,250 | WARNING | valid | email_id | Invalid email address
+2025-12-15 22:09:06,289 | INFO | valid | email_id | Email Address verified.
+2025-12-15 22:09:06,289 | INFO | valid | phone |  ==== Entered phone Number Verification ==== 
+2025-12-15 22:09:11,970 | WARNING | valid | phone | Invalid Phone Number.
+2025-12-15 22:09:14,752 | WARNING | valid | phone | Invalid Phone Number.
+2025-12-15 22:09:19,094 | INFO | valid | phone | Phone Number Verified.
+2025-12-15 22:26:43,565 | INFO | main | main | Started Bank Application
+2025-12-15 22:26:43,566 | INFO | main | main | Loading Database
+2025-12-15 22:26:50,036 | INFO | valid | date_of_birth |  ==== Entered Date of Birth Verification ==== 
+2025-12-15 22:26:56,668 | INFO | valid | date_of_birth | Date of Birth Verified Successfully.
+2025-12-15 22:26:56,668 | INFO | valid | gender_verification |  ==== Entered Gender Verification ==== 
+2025-12-15 22:26:58,115 | INFO | valid | gender_verification | Gender Verified.
+2025-12-15 22:26:58,115 | INFO | valid | email_id |  ==== Entered Email Id verification ==== 
+2025-12-15 22:27:08,329 | INFO | valid | email_id | Email Address verified.
+2025-12-15 22:27:08,330 | INFO | valid | phone |  ==== Entered phone Number Verification ==== 
+2025-12-15 22:27:13,790 | INFO | valid | phone | Phone Number Verified.
+2025-12-15 22:27:32,689 | INFO | main | main | Starting login attempt
+2025-12-15 22:27:42,771 | INFO | login | login_validation | Entered login Validation
+2025-12-15 22:27:42,771 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 22:27:42,772 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 22:27:46,082 | INFO | login | login_validation | USer : mayankpatel2002@gmail.com logged in sccussfully
+2025-12-15 22:27:46,354 | ERROR | main | main | User Typed incorrect Password. Login Attempt failed.
+2025-12-15 22:28:29,984 | INFO | main | main | Starting login attempt
+2025-12-15 22:28:40,197 | INFO | login | login_validation | Entered login Validation
+2025-12-15 22:28:40,198 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 22:28:40,199 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 22:28:43,728 | INFO | login | login_validation | USer : mayankpatel2002@gmail.com logged in sccussfully
+2025-12-15 22:28:43,999 | INFO | login | login_validation | Login Sccussfull
+2025-12-15 22:29:16,048 | INFO | main | main | Starting login attempt
+2025-12-15 22:29:24,050 | INFO | login | login_validation | Entered login Validation
+2025-12-15 22:29:24,051 | INFO | login | login_validation | Connection with database is Open
+2025-12-15 22:29:24,052 | INFO | login | login_validation | Connection with database is closed
+2025-12-15 22:29:26,666 | INFO | login | login_validation | USer : mayankpatel@gmail.com logged in sccussfully

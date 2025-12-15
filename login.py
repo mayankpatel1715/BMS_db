@@ -1,26 +1,54 @@
-
+import logging
+import bank_log
 import data as d
-def login_validation(email):
+import bcrypt
 
+def password():
     password = input("Enter your password : ")
+    pass_bytes = password.encode('utf-8')
+    hash_pass = bcrypt.hashpw(pass_bytes,bcrypt.gensalt())
+    return hash_pass.decode("utf-8")
     
-    conn = d.get_connection()
-    cursor = conn.cursor()
+def login_validation(email):
     
-    query = '''
-        SELECT password
-        FROM credential
-        WHERE user_email = :user_email
-    '''
+    logging.info("Entered login Validation")
     
-    cursor.execute(query,{'user_email' : email})
-    record = cursor.fetchone()
-    conn.close()
+    try:
+        conn = d.get_connection()
+        cursor = conn.cursor()
+        logging.info("Connection with database is Open")
     
-    check_record = record['password']
+        query = '''
+            SELECT password
+            FROM credential
+            WHERE user_email = :user_email
+        '''
     
-    if check_record == password:
-        return True
+        cursor.execute(query,{'user_email' : email})
+        record = cursor.fetchone()
+    
+    except Exception as e:
+        logging.warning("Something went wrong with database.")
+        raise e
+    
+    finally:    
+        conn.close()
+        logging.info("Connection with database is closed")
+
+    
+    plain_password = input("Enter your password : ")
+    plain = plain_password.encode('utf-8')
+    
+    if record:
+        logging.info(f"USer : {email} logged in sccussfully")
+        check_record = record['password'].encode('utf-8')
+        
+        if bcrypt.checkpw(plain,check_record):
+            logging.info("Login Sccussfull")
+            print("Login Sccussfull")
+            return True
+        else:
+            return False
     else:
-        print("Incorrect Password")
-        return False
+        logging.error("Account Not Found")
+        raise TypeError("Account Not Found")
