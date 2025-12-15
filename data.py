@@ -5,6 +5,7 @@ db_name = "bank.db"
 def get_connection():
     conn = sqlite3.connect(db_name)
     conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys = ON;")
     return conn
 
 def db():

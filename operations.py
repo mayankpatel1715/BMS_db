@@ -29,6 +29,7 @@ def account_creation():
     conn.close()
     
 def account_detail(user_email):
+        
     conn = d.get_connection()
     cursor = conn.cursor()
     
@@ -39,16 +40,13 @@ def account_detail(user_email):
     '''
     
     cursor.execute(query,{"email" : user_email})
-    reuslt = cursor.fetchone()
+    result = cursor.fetchone()
     
     conn.close()
-    
-    if reuslt:
-        user_dict = dict(reuslt)
-        dis.account_display(user_dict)
-        return user_dict
+        
+    if result:
+        return dict(result)
     else:
-        print("No Account found")
         return
 
         
